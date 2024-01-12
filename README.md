@@ -1,17 +1,29 @@
-Back-end
-Description of the Back-end Architecture:
-StudyNotion uses a monolithic architecture, with the backend built using Node.js and Express.js, and MongoDB as the primary database. Monolithic architecture refers to a design approach where all the modules of the application are combined into a single large program, with a single codebase, to enable better control, security, and performance.
-Node.js is a popular JavaScript runtime that allows us to run JavaScript code outside of the browser. Express.js is a web application framework that simplifies the process of building web applications in Node.js. MongoDB is a popular NoSQL database that allows for flexible data storage and retrieval, making it a suitable choice for complex applications like StudyNotion.
-Features and Functionalities of the Back-end:
-The back end of StudyNotion provides a range of features and functionalities, including:
-User authentication and authorization: Students and instructors can sign up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification and forgot password functionality for added security.
-Course management: Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
-Payment Integration: Students will purchase and enrol on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
-Cloud-based media management: StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
-Markdown formatting: Course content in document format is stored in Markdown format, which allows for easier display and rendering on the front end.
-Frameworks, Libraries, and Tools used:
-The back end of StudyNotion uses a range of frameworks, libraries, and tools to ensure its functionality and performance, including:
-Node.js: Node.js is used as the primary framework for the back end.
-MongoDB: MongoDB is used as the primary database, providing a flexible and scalable data storage solution.
-Express.js: Express.js is used as a web application framework, providing a range of features and tools for building web applications.
-JWT: JWT (JSON Web Tokens) are used for authentication and authorization, providing a secure and reliable way to manage user credentials.
+**Description of the Back-end Architecture:**
+- **Monolithic Architecture:** StudyNotion employs a monolithic architecture for enhanced control, security, and performance. This approach combines all application modules into a single large program with a unified codebase.
+- **Technologies Used:**
+  - **Node.js and Express.js:** The backend is built using Node.js, a JavaScript runtime enabling code execution outside the browser, and Express.js, a web application framework simplifying Node.js web app development.
+  - **MongoDB:** Serving as the primary database, MongoDB, a popular NoSQL database, is utilized for flexible data storage and retrieval, ideal for StudyNotion's complex requirements.
+
+**Features and Functionalities of the Back-end:**
+- **User Authentication and Authorization:**
+  - Students and instructors can sign up and log in using email and password.
+  - Supports OTP (One-Time Password) verification and forgot password functionality.
+- **Course Management:**
+  - Instructors can CRUD (create, read, update, delete) courses, manage content, and media.
+  - Students can view and rate courses.
+- **Payment Integration:**
+  - Checkout flow for course purchase with Razorpay integration for secure payment handling.
+- **Cloud-Based Media Management:**
+  - Utilizes Cloudinary, a cloud-based media management service, for storing and managing images, videos, and documents.
+- **Markdown Formatting:**
+  - Stores course content in Markdown format for seamless display and rendering on the front end.
+
+**Frameworks, Libraries, and Tools Used:**
+- **Node.js:**
+  - Primary framework ensuring the functionality of the back end.
+- **MongoDB:**
+  - Primary database offering flexible and scalable data storage.
+- **Express.js:**
+  - Web application framework providing essential features and tools for web app development.
+- **JWT (JSON Web Tokens):**
+  - Utilized for authentication and authorization, ensuring secure management of user credentials.
