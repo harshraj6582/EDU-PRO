@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/harshraj6582/Study-Notion_D.git">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    
   </a>
 
   <h3 align="center">StudyNotion (LMS Platform Backend)</h3>
@@ -13,11 +13,7 @@
     <a href="https://github.com/harshraj6582/Study-Notion_D.git"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="[YourDemoLink]">View Demo</a>
-    .
-    <a href="https://github.com/harshraj6582/Study-Notion_D.git/issues">Report Bug</a>
-    .
-    <a href="https://github.com/harshraj6582/Study-Notion_D.git/issues">Request Feature</a>
+  
   </p>
 </p>
 
