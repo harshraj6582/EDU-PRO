@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/harshraj6582/Study-Notion_D.git?color=dark-green) ![Issues](https://img.shields.io/github/issues/harshraj6582/Study-Notion_D.git) ![License](https://img.shields.io/github/license/harshraj6582/Study-Notion_D.git) 
+
 
 ## About The Project
 
